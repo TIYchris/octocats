@@ -9,6 +9,8 @@ html {
 .octocat {
 	float: left;
 	padding: 2px;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
 }
 
 .octocat > a img {
@@ -37,13 +39,11 @@ html {
 .image-caption {
 	float:right;
 	margin-top: 5px;
-	margin-right: -22px;
 }
 
 ul {
 	list-style: none;
 	padding-left: 4px;
-	padding-top: 2px;
 }
 
 .authors {
@@ -58,13 +58,8 @@ ul {
 
 li {
 	overflow:auto; 
-	border-bottom: 1px solid lightgray;
 	margin-right: 20px;
 	padding-top: 3px;
-}
-
-.authors > li {
-	border: none;
 }
 
 ul li div div span {
@@ -73,4 +68,8 @@ ul li div div span {
 
 span, ul li div div a {
 	font-weight: bolder;
+}
+
+.image-break {
+	margin-right: 50px;
 }
