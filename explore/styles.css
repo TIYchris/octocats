@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;`
+}
+
+.octocat {
+	float: left;
+	padding: 2px;
+}
+
+.octocat > a img {
+  width: 450px;
+  float: left;
+  position: relative;
+  box-sizing: inherit;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.authors > li a img {
+	width: 30px;
+}
+
+.image-footer {
+	clear: both;
+}
+
+.image-number {
+	float: left;
+	color: lightgray;
+	margin-top: 14px;
+}
+
+.image-caption {
+	float:right;
+	margin-top: 5px;
+	margin-right: -22px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 4px;
+	padding-top: 2px;
+}
+
+.authors {
+	padding: 0px;
+	float: right;
+	padding-left: 10px;
+}
+
+.image-caption span, .image-caption a {
+	line-height: 30px;
+}
+
+li {
+	overflow:auto; 
+	border-bottom: 1px solid lightgray;
+	margin-right: 20px;
+	padding-top: 3px;
+}
+
+.authors > li {
+	border: none;
+}
+
+ul li div div span {
+	color: gray;
+}
+
+span, ul li div div a {
+	font-weight: bolder;
+}
